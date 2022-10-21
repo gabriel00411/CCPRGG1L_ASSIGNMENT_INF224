@@ -1,38 +1,71 @@
 public class Assignment2 {
     public static void main(String[] args) throws Exception {
-        int count = 0;
+        
+        //1. Use a while loop to print your FIRSTNAME three times.
 
-         while (count !=3){
+        int count=0;
+
+        while (count!=3){
             System.out.println("GABRIEL");
             count ++;
         }
-        // do while loop
+//==========================================================================================================================================================================
 
-         int i = 0;
-         do {
-            System.out.println("VILLANUEVA");
-             i ++;
-        } while (i != 4);
+        //2. Use a do-while loop to print your MIDDLENAME four times.
 
-        //for loop
+        int m = 0; 
 
-        for (int l = 0; l != 5;  l++) {
+            do {
+                System.out.println("VILLANUEVA");
+                m ++;
+            }while (m !=4);
+            
+//==========================================================================================================================================================================
+
+        //3. Use a for loop to print your SURNAME five times.
+
+        for (int s = 0; s != 5; s++) {
             System.out.println("MARFAL");
         }
-        // char array
-        
-        String[] myFirstName = {"G","A","B","R","I","E","L"};
 
-        for (int counter = 0; counter < myFirstName.length; counter++) {
-            System.out.println(myFirstName[counter]);
-        }
+//==========================================================================================================================================================================
 
-        // char array in reverse
-        
-        String[] myfirstname = {"L","E","I","R","B","A","G",};
+        //4. Create a char array that consists all of the characters of your FIRSTNAME and use a for loop to print each character of your FIRSTNAME. (example: ELIZER)
+        //G
+        //A
+        //B
+        //R
+        //I
+        //E
+        //L
 
-        for (int l = 0; l < myFirstName.length; l++) {
-            System.out.println(myfirstname[l]);
-}
-    }
+        //char Arrray
+        char[] firstname = {'G', 'A', 'B', 'R', 'I', 'E', 'L'};
+            System.out.print(firstname[0]);
+            System.out.print(firstname[1]);
+            System.out.print(firstname[2]);
+            System.out.print(firstname[3]);
+            System.out.print(firstname[4]);
+            System.out.print(firstname[5]);
+            System.out.println(firstname[6]);
+        //For loop
+        for (int c = 0; c != 1; c++);
+
+//==========================================================================================================================================================================
+
+        //5. Use a for loop to print the char array of your FIRSTNAME in REVERSE order (example: REZILE)
+
+        //For loop
+            for (int r = 0; r != 1; r++);
+
+        //char Arrray
+        char[] firstname2 = {'G', 'A', 'B', 'R', 'I', 'E', 'L'};
+            System.out.print(firstname[6]);
+            System.out.print(firstname[5]);
+            System.out.print(firstname2[4]);
+            System.out.print(firstname2[3]);
+            System.out.print(firstname2[2]);
+            System.out.print(firstname2[1]);
+            System.out.print(firstname2[0]);
+    }  
 }
